@@ -17,15 +17,3 @@ yes.grid(column = 1,row = 2)
 no = Button(box,text = 'No',command = nst)
 no.grid(column = 1,row = 3)
 
-
-
-
-
-
-
-'''messagebox.askyesno('Restart','Are you sure want to Restart?')
-check = messagebox.get()
-if check == 'Yes':
-    os.system("shutdown /r /t 5")
-else :
-    exit()'''
